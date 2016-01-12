@@ -7,7 +7,7 @@ class Employee {
 
 	// поле allWork – референция към множеството от всичките задачи.
 	// Всички работници работят с едно множество от задачи
-	private AllWork allWork;
+	static private AllWork allWork;
 
 	Employee(String name) {
 		if (name.trim().length() > 0) {
